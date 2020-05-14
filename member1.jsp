@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <% request.setChararcterEncoding("utf-8"); %>
-<!DOCTYPE html> <!--  member1.jsp  -->
+<!doctype html> <!--  member1.jsp  -->
 <html>
   <head>
     <meta charset="utf-8"/>
