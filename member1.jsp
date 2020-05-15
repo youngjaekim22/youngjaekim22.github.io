@@ -14,7 +14,7 @@
     nav ul li{display:inline; margin:5px;}
     a{text-decoration:none;}
     #id_form{width:100px; height:14px; color:red;}
-    <title>CSS 객체 선택 실습</title>
+    <title>CSS 객체 선택 실습1</title>
   </head>
   <body>
     <header>
