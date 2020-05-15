@@ -6,6 +6,14 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="sample.css"/>
+    body{font-family: Verdana, sans-serif; font-size:0.8em;}
+    header, nav, section, article, footer
+    {border:1px solid gray; margin:5px; padding:8px;}
+    section#displayArea{height:210px;}
+    nav ul{margin:0; padding:0;}
+    nav ul li{display:inline; margin:5px;}
+    a{text-decoration:none;}
+    #id_form{width:100px; height:14px; color:red;}
     <title>CSS 객체 선택 실습</title>
   </head>
   <body>
