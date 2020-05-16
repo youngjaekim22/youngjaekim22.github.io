@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset="UTF-8" pageEncoding="UTF-8"%>
-<% request.setChararcterEncoding("UTF-8"); %>
+<%@ page language="java" contentType="text/html; charset="utf-8" pageEncoding="utf-8"%>
+<% request.setChararcterEncoding("utf-8"); %>
 <!doctype html> <!--  member1.jsp  -->
 <html>
   <head>
-    <meta charset="UTF-8"/>
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="../css/sample.css"/>
     <title>CSS 객체 선택 실습</title>
