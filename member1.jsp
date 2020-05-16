@@ -37,6 +37,7 @@
           <footer>
             <p>&copy: 20XX Made by Korea. All rights reserved.</p>
           </footer>
+        </div>
       </form>
     </section>
   </body>
