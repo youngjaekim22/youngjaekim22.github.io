@@ -4,7 +4,39 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <style>
-      header, nav, section, article, aside, footer{border:10px groove gray; margin:5px; padding:8px; width:1000px;}
+      *{box-sizing:border-box; padding:0; margin:0;}
+      .row::after{content:""; clear:both; display:table;}
+      [class*="col-"]{float:left; padding:10px;}
+      [class*="col-"]{width:100%}   
+      @media only screen and (min-width: 600px){
+      .col-t-1{width:8.33%;}
+      .col-t-2{width:16.66%;}
+      .col-t-3{width:23.7%;}
+      .col-t-4{width:33.33%;}
+      .col-t-5{width:41.66%;}
+      .col-t-6{width:50%;}
+      .col-t-7{width:58.33%;}
+      .col-t-8{width:66.66%;}
+      .col-t-9{width:75%;}
+      .col-t-10{width:83.33%;}
+      .col-t-11{width:91.66%;}
+      .col-t-12{width:100%;}
+      }
+      @media only screen and (min-width: 768px){
+      .col-1{width:8.33%;}
+      .col-2{width:16.66%;}
+      .col-3{width:23.7%;}
+      .col-4{width:33.33%;}
+      .col-5{width:41.66%;}
+      .col-6{width:50%;}
+      .col-7{width:58.33%;}
+      .col-8{width:66.66%;}
+      .col-9{width:75%;}
+      .col-10{width:83.33%;}
+      .col-11{width:91.66%;}
+      .col-12{width:100%;}
+      }
+      header, nav, section, article, aside, footer{border:10px groove gray; margin:5px; padding:8px; width:100%;}
       *{padding:0; margin:0;}
       .bodybackground{background-color:RGB(201, 214, 229);}
       .imgleft{float:left; width:30px;}
@@ -46,21 +78,21 @@
         <li><a href="club.html">동아리 및 봉사활동</a></li>
       </ul>
     </nav>
-    <section>
-      <section>
+    <section class="col-9 col-t-12">
+      <section class="col-12 col-t-12">
         <h3>교내외 경진대회</h3>
         <p style="color:green">참가 및 참가 예정인 교내외 경진대회를 확인하실 수 있습니다.</p>
       </section>
-      <section>
+      <section class="col-12 col-t-12">
         <h3>부산 ICT 융합 해카톤 대회 (예정)</h3>
         <p style="color:green">설명 : ICT기술을 활용한 다양한 분야의 문제 및 이슈 해결을 주제로 부산에서 개최되는 대회입니다.</p>
       </section>
-      <section>
+      <section class="col-12 col-t-12">
         <h3>캡스톤 디자인 경진 대회 (예정)</h3>
         <p style="color:green">설명 : 산업현장에서 부딪칠 수 있는 문제들을 해결할 수 있는 능력을 길러주기 위해 작품을 기획, 설계, 제작하는 대회입니다.</p>
       </section>
     </section>
-    <aside>
+    <aside class="col-3 col-t-12">
       <ul>
         <li><a href="http://www.dju.ac.kr/kor/html/main.htm"><img src="dju.jpg" alt="대전대학교"/></a></li>
       </ul>
